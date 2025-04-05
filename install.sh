@@ -51,7 +51,7 @@ else
 fi
 
 # Распаковка архива zapret и его удаление
-wget -C zapret.zip https://github.com/bol-van/zapret/releases/download/v70.5/zapret-v70.5.zip
+wget -O zapret.zip https://github.com/bol-van/zapret/releases/download/v70.5/zapret-v70.5.zip
 unzip zapret.zip
 rm -f zapret.zip
 
