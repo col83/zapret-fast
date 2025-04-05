@@ -113,7 +113,7 @@ FLOWOFFLOAD=donttouch
 # it's possible to specify multiple interfaces like this : IFACE_LAN="eth0 eth1 eth2"
 # if IFACE_WAN6 is not defined it take the value of IFACE_WAN
 #IFACE_LAN=eth0
-#IFACE_WAN=eth0
+#IFACE_WAN= wlan0 eth0 ath0
 #IFACE_WAN6="ipsec0 wireguard0 he_net"
 
 # should start/stop command of init scripts apply firewall rules ?
@@ -128,7 +128,7 @@ INIT_APPLY_FW=1
 # do not work with ipv4
 #DISABLE_IPV4=1
 # do not work with ipv6
-#DISABLE_IPV6=1
+DISABLE_IPV6=1
 
 # select which init script will be used to get ip or host list
 # possible values : get_user.sh get_antizapret.sh get_combined.sh get_reestr.sh get_hostlist.sh
