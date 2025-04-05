@@ -59,7 +59,7 @@ rm -f zapret.zip
 cp /opt/zapret/init.d/custom.d.examples.linux/50-discord /opt/zapret/init.d/sysv/custom.d/
 
 #Копирование конфига на замену стандартному
-wget -O config.default https://raw.githubusercontent.com/IndeecFOX/zapret4rocket/master/config.default
+wget -O config.default https://raw.githubusercontent.com/col83/zapret-fast/master/config.default
 mv config.default /opt/zapret/
 
 # Запуск установочных скриптов
